@@ -6,9 +6,13 @@ YUI({
 
   Y.log(Y.MyApp);
   var myDial = new Y.MyApp.Dial({
-      srcNode: '.yui3-dialwidget'
+      srcNode: '.yui3-dialwidget',
+      rotation: 0,
+      width: 300,
+      height: 300
   });
 
 
   myDial.render();
+  Y.log(myDial);
 });

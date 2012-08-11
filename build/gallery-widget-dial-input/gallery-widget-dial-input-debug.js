@@ -1,3 +1,5 @@
+YUI.add('gallery-widget-dial-input', function(Y) {
+
 /* Any frequently used shortcuts, strings and constants */
 var Lang = Y.Lang;
 
@@ -298,3 +300,6 @@ Y.extend(Dial, Y.Widget, {
 });
 
 Y.namespace('MyApp').Dial = Dial;
+
+
+}, '@VERSION@' ,{skinnable:false, requires:['widget']});

@@ -1,0 +1,12 @@
+.yui3-js-enabled .yui3-dial-loading {
+    display: none;
+}
+
+.yui3-js-enabled .yui3-dial input {
+    display:none
+}
+
+.yui3-dial {
+    background: black url(dial.svg) 50% 50% no-repeat;
+    background-size: 100% 100%;
+}
